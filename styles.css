@@ -350,6 +350,13 @@ body>section>div.login-container>div>p>a:hover {
   display: flex;
   flex-direction: column;
   font-size: 20px;
+  line-height: 30px;
+}
+
+.blog h2,
+h3 {
+
+  margin: 5px 0;
 }
 
 
@@ -384,7 +391,7 @@ body>section>div.login-container>div>p>a:hover {
 
 .container {
 
-  margin: 0px;
+  margin: 0 0 -40px 0;
   overflow-x: auto;
   /* Enable horizontal scrolling */
   scrollbar-width: none;
@@ -402,7 +409,7 @@ body>section>div.login-container>div>p>a:hover {
 
 .container .card {
   /* max-width: 100vw; */
-  margin: 37px auto;
+  margin: 30px auto 0;
   height: 500px;
 }
 
@@ -715,17 +722,15 @@ footer {
   } */
 
 
-  .
-  
-  card-item {
+  . card-item {
     /* height: 70vh; */
   }
 
 
   .download-button {
-    height: 8vh;
+    height: 50px;
     font-size: 22px;
-    width: 195px;
+    width: 180px;
     margin-bottom: 10px;
     /* background-color: #007bff; */
     color: #fff;
